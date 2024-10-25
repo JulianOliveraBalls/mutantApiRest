@@ -103,12 +103,35 @@ Ejemplo de respuesta exitosa:
   "isMutant": true
 }
 ```
+### La API funciona en: https://mutantapirest.onrender.com/ 
+#### En: https://mutantapirest.onrender.com/mutant a través del siguiente codigo se puede probar el uso de la misma(por consola)...
+fetch('https://mutantapirest.onrender.com/mutant', {
+    method: 'POST', // Método HTTP
+    headers: {
+        'Content-Type': 'application/json' // Tipo de contenido
+    },
+    body: JSON.stringify({ // Cuerpo de la solicitud
+        dna: ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"]
+    })
+})
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    return response.json(); // Convertir la respuesta a JSON
+})
+.then(data => {
+    console.log('Respuesta:', data); // Imprimir la respuesta en la consola
+})
+.catch(error => {
+    console.error('Error:', error); // Manejar errores
+});
 
 ### Endpoint de estadísticas
 
 Se incluye un endpoint adicional para obtener estadísticas sobre el análisis de ADN.
 
-**URL:** `/stats`
+**URL:** `https://mutantapirest.onrender.com/stats`
 
 **Método:** `GET`
 
@@ -127,7 +150,7 @@ Este endpoint devuelve el número total de mutantes y humanos analizados, así c
 El proyecto utiliza **H2 Database** en modo en memoria para almacenar el ADN analizado. Puedes acceder a la consola de H2 para ver el contenido de la base de datos utilizando la siguiente URL:
 
 ```
-http://localhost:8081/h2-console
+[http:/https://mutantapirest.onrender.com/h2-console](https://mutantapirest.onrender.com/h2-console/)
 ```
 
 **Credenciales:**
