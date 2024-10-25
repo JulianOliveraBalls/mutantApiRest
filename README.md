@@ -163,11 +163,7 @@ El proyecto utiliza **H2 Database** en modo en memoria para almacenar el ADN ana
 
 El proyecto incluye pruebas unitarias para validar la funcionalidad del análisis de ADN y los servicios.
 
-Para ejecutar los tests, utiliza el siguiente comando:
-
-```bash
-mvn test
-```
+Para ejecutar los tests, RUN a DnaServiceTest.java
 
 ## Swagger
 
