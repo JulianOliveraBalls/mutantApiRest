@@ -34,14 +34,13 @@ Este proyecto proporciona una API REST para detectar si una cadena de ADN corres
 - **Spring Data JPA**
 - **Lombok**
 - **Swagger/OpenAPI** para la documentación de la API
-- **Maven** para la gestión de dependencias
+- **Gradle** para la gestión de dependencias
 
 ## Instalación
 
 ### Requisitos Previos
 
 - **Java 17**
-- **Maven** 3.8.0 o superior
 
 ### Clonar el repositorio
 
@@ -55,7 +54,7 @@ cd mutant-dna-api
 Ejecuta el siguiente comando para compilar el proyecto y descargar las dependencias:
 
 ```bash
-mvn clean install
+gradle clean build
 ```
 
 ## Ejecución
@@ -63,7 +62,7 @@ mvn clean install
 Para ejecutar la aplicación localmente, utiliza el siguiente comando:
 
 ```bash
-mvn spring-boot:run
+gradle spring-boot:run
 ```
 
 Por defecto, la aplicación se ejecutará en el puerto **8081**. Puedes acceder a la API a través de la siguiente URL:
