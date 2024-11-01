@@ -14,9 +14,6 @@ Este proyecto es una API REST desarrollada en **Java Spring Boot** que permite a
 - [Uso de la API](#uso-de-la-api)
 - [Base de Datos](#base-de-datos)
 - [Tests](#tests)
-- [Swagger](#swagger)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ## Descripción
 
@@ -33,7 +30,6 @@ Este proyecto proporciona una API REST para detectar si una cadena de ADN corres
 - **H2 Database** (en memoria)
 - **Spring Data JPA**
 - **Lombok**
-- **Swagger/OpenAPI** para la documentación de la API
 - **Gradle** para la gestión de dependencias
 
 ## Instalación
@@ -164,30 +160,5 @@ El proyecto utiliza **H2 Database** en modo en memoria para almacenar el ADN ana
 El proyecto incluye pruebas unitarias para validar la funcionalidad del análisis de ADN y los servicios.
 
 Para ejecutar los tests, RUN a DnaServiceTest.java
-
-## Swagger
-
-El proyecto está documentado utilizando Swagger. Puedes acceder a la documentación interactiva de la API en la siguiente URL:
-
-```
-http://localhost:8081/swagger-ui.html
-```
-
-Aquí puedes ver y probar los endpoints directamente desde el navegador.
-
-## Contribución
-
-Si deseas contribuir a este proyecto:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza los cambios necesarios.
-4. Haz un commit de tus cambios (`git commit -am 'Añadir nueva funcionalidad'`).
-5. Sube los cambios (`git push origin feature/nueva-funcionalidad`).
-6. Crea un nuevo **Pull Request**.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Para más detalles, revisa el archivo [LICENSE](LICENSE).
 
 ---
