@@ -101,6 +101,7 @@ Ejemplo de respuesta exitosa:
 ```
 ### La API funciona en: https://mutantapirest.onrender.com/ 
 #### En: https://mutantapirest.onrender.com/mutant a través del siguiente codigo se puede probar el uso de la misma(por consola)...
+```bash
 fetch('https://mutantapirest.onrender.com/mutant', {
     method: 'POST', // Método HTTP
     headers: {
@@ -122,6 +123,8 @@ fetch('https://mutantapirest.onrender.com/mutant', {
 .catch(error => {
     console.error('Error:', error); // Manejar errores
 });
+
+```
 
 ### Endpoint de estadísticas
 
