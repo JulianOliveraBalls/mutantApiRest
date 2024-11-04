@@ -149,14 +149,8 @@ Este endpoint devuelve el número total de mutantes y humanos analizados, así c
 El proyecto utiliza **H2 Database** en modo en memoria para almacenar el ADN analizado. Puedes acceder a la consola de H2 para ver el contenido de la base de datos utilizando la siguiente URL:
 
 ```
-[http:/https://mutantapirest.onrender.com/h2-console](https://mutantapirest.onrender.com/h2-console/)
+[http:/https://mutantapirest.onrender.com/h2-console]
 ```
-
-**Credenciales:**
-
-- JDBC URL: `jdbc:h2:mem:testback`
-- Usuario: `sa`
-- Contraseña: `back`
 
 ## Tests
 
