@@ -14,6 +14,7 @@ Este proyecto es una API REST desarrollada en **Java Spring Boot** que permite a
 - [Uso de la API](#uso-de-la-api)
 - [Base de Datos](#base-de-datos)
 - [Tests](#tests)
+- [Drive Documentación Adicional](#resto-documentacion)
 
 ## Descripción
 
@@ -157,5 +158,7 @@ El proyecto utiliza **H2 Database** en modo en memoria para almacenar el ADN ana
 El proyecto incluye pruebas unitarias para validar la funcionalidad del análisis de ADN y los servicios.
 
 Para ejecutar los tests, RUN a DnaServiceTest.java
+
+[Resto Documentación](https://drive.google.com/file/d/14XnTCri6Gr26crNH9OYGs9OXOFEYcDEu/view?usp=sharing)
 
 ---
